@@ -1,0 +1,485 @@
+<!doctype html>
+<html lang="lt">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title data-t="meta.title"></title>
+<meta name="description" content="{{meta.desc}}" id="meta-desc">
+<link rel="canonical" href="https://nexivo.sbs/">
+<link rel="alternate" hreflang="lt" href="https://nexivo.sbs/">
+<link rel="alternate" hreflang="ru" href="https://nexivo.sbs/?lang=ru">
+<link rel="alternate" hreflang="en" href="https://nexivo.sbs/?lang=en">
+<link rel="alternate" hreflang="x-default" href="https://nexivo.sbs/">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta name="theme-color" content="#06061a">
+<meta name="color-scheme" content="dark light">
+<meta name="geo.region" content="LT-VL">
+<meta name="geo.placename" content="Vilnius">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Nexivo">
+<meta property="og:url" content="https://nexivo.sbs/">
+<meta property="og:title" content="{{meta.title}}" id="og-title">
+<meta property="og:description" content="{{meta.desc}}" id="og-desc">
+<meta property="og:image" content="https://nexivo.sbs/assets/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:locale" content="lt_LT" id="og-locale">
+<meta property="og:locale:alternate" content="ru_RU">
+<meta property="og:locale:alternate" content="en_GB">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{meta.title}}">
+<meta name="twitter:description" content="{{meta.desc}}">
+<meta name="twitter:image" content="https://nexivo.sbs/assets/og-image.jpg">
+
+<link rel="icon" href="favicon.ico" sizes="48x48">
+<link rel="icon" href="assets/favicon-32.png" type="image/png" sizes="32x32">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<link rel="manifest" href="site.webmanifest">
+<link rel="preload" as="image" href="assets/logo.webp" type="image/webp">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Onest:wght@400;500;600&family=Unbounded:wght@500;600;700&display=swap&subset=cyrillic,latin-ext">
+
+<script type="application/ld+json">{{JSONLD}}</script>
+<style>{{CSS}}</style>
+</head>
+<body>
+<a class="skip" href="#main" data-t="skip"></a>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">{{ICONS}}</svg>
+
+<!-- ============ HEADER ============ -->
+<header class="hdr" id="hdr">
+  <div class="wrap hdr-in">
+    <a href="#top" class="brand" aria-label="Nexivo">
+      <img src="assets/logo.webp" alt="Nexivo" width="498" height="118">
+    </a>
+    <nav class="nav" id="nav" aria-label="Main">
+      <a href="#paslaugos" data-t="nav.services"></a>
+      <a href="#sprendimai" data-t="nav.solutions"></a>
+      <a href="#kainos" data-t="nav.pricing"></a>
+      <a href="#procesas" data-t="nav.process"></a>
+      <a href="#darbai" data-t="nav.work"></a>
+      <a href="#duk" data-t="nav.faq"></a>
+      <a href="#kontaktai" class="btn btn-grad nav-cta" data-t="cta.offer"></a>
+    </nav>
+    <div class="hdr-r">
+      <div class="lang" role="group" data-ta="lang.aria">
+        <button type="button" data-lang="lt" aria-pressed="true">LT</button>
+        <button type="button" data-lang="ru" aria-pressed="false">RU</button>
+        <button type="button" data-lang="en" aria-pressed="false">EN</button>
+      </div>
+      <a href="#kontaktai" class="btn btn-grad btn-sm hdr-cta magnetic" data-t="cta.offer"></a>
+      <button class="burger" id="burger" type="button" aria-expanded="false" aria-controls="nav" data-ta="menu.aria">
+        <svg class="i"><use href="#i-menu"/></svg><svg class="i"><use href="#i-x"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<nav class="dots" id="dots" data-ta="dots.aria">
+  <a href="#top"><em data-t="dots.top"></em><span>01</span><i></i></a>
+  <a href="#spin"><em data-t="dots.spin"></em><span>02</span><i></i></a>
+  <a href="#paslaugos"><em data-t="nav.services"></em><span>03</span><i></i></a>
+  <a href="#sprendimai"><em data-t="nav.solutions"></em><span>04</span><i></i></a>
+  <a href="#kodel"><em data-t="dots.why"></em><span>05</span><i></i></a>
+  <a href="#procesas"><em data-t="nav.process"></em><span>06</span><i></i></a>
+  <a href="#kainos"><em data-t="nav.pricing"></em><span>07</span><i></i></a>
+  <a href="#darbai"><em data-t="nav.work"></em><span>08</span><i></i></a>
+  <a href="#duk"><em data-t="nav.faq"></em><span>09</span><i></i></a>
+  <a href="#kontaktai"><em data-t="dots.contact"></em><span>10</span><i></i></a>
+</nav>
+
+<main id="main">
+<!-- ============ HERO ============ -->
+<section class="hero dark" id="top">
+  <div class="hero-bg" aria-hidden="true"><span class="orb o1"></span><span class="orb o2"></span><span class="grid-bg"></span></div>
+  <div class="wrap hero-in">
+    <div class="hero-copy">
+      <h1 data-t="hero.h1"></h1>
+      <p class="lead" data-t="hero.sub"></p>
+      <div class="cta-row">
+        <a href="#kontaktai" class="btn btn-grad btn-lg magnetic" data-t="cta.offer"></a>
+        <a href="#sprendimai" class="btn btn-ghost btn-lg" data-t="cta.what"></a>
+      </div>
+      <p class="hero-note" data-t="hero.note"></p>
+      <ul class="trust">
+        <li><svg class="i"><use href="#i-zap"/></svg><span data-t="trust.1"></span></li>
+        <li><svg class="i"><use href="#i-layout"/></svg><span data-t="trust.2"></span></li>
+        <li><svg class="i"><use href="#i-sparkles"/></svg><span data-t="trust.3"></span></li>
+        <li><svg class="i"><use href="#i-target"/></svg><span data-t="trust.4"></span></li>
+      </ul>
+    </div>
+
+    <figure class="pipe" id="pipe" data-step="0">
+      <div class="pipe-tabs" role="tablist">
+        <button role="tab" type="button" data-step="0" aria-selected="true"><i></i><span data-t="pipe.t1"></span></button>
+        <button role="tab" type="button" data-step="1" aria-selected="false"><i></i><span data-t="pipe.t2"></span></button>
+        <button role="tab" type="button" data-step="2" aria-selected="false"><i></i><span data-t="pipe.t3"></span></button>
+      </div>
+      <div class="pipe-stage">
+        <div class="pane pane-idea">
+          <div class="note">
+            <p data-t="pipe.note"></p>
+            <small data-t="pipe.from"></small>
+          </div>
+        </div>
+        <div class="pane pane-wire" aria-hidden="true">
+          <div class="wf-bar"><b></b><b></b><b></b></div>
+          <div class="wf-hero"><span class="w60"></span><span class="w40"></span><span class="wbtn"></span></div>
+          <div class="wf-cols"><span></span><span></span><span></span></div>
+          <small class="wf-lbl" data-t="pipe.wire"></small>
+        </div>
+        <div class="pane pane-prod">
+          <div class="pd-top"><span class="pd-logo"></span><span class="pd-nav"><b></b><b></b><b></b></span></div>
+          <div class="pd-hero">
+            <strong data-t="pipe.site"></strong>
+            <span class="pd-line"></span><span class="pd-line s"></span>
+            <span class="pd-btn" data-t="pipe.btn"></span>
+          </div>
+          <div class="pd-cards"><span></span><span></span><span></span></div>
+          <div class="pd-toast"><svg class="i"><use href="#i-check"/></svg><span data-t="pipe.toast"></span></div>
+        </div>
+      </div>
+      <figcaption data-t="pipe.caption"></figcaption>
+    </figure>
+  </div>
+  <a class="scroll-hint" id="scrollHint" href="#spin" aria-hidden="true" tabindex="-1"><span data-t="scroll"></span><i></i></a>
+</section>
+
+<!-- ============ SPIN ============ -->
+<section class="spin dark" id="spin" aria-labelledby="spin-h">
+  <div class="wrap">
+    <div class="spin-head">
+      <div>
+        <h2 id="spin-h" data-t="spin.h2"></h2>
+        <p data-t="spin.p"></p>
+      </div>
+      <div class="spin-act">
+        <button type="button" class="btn btn-grad btn-lg spin-btn" id="spinBtn"><svg class="i"><use href="#i-gift"/></svg><span data-t="spin.btn"></span></button>
+        <small data-t="spin.rule"></small>
+      </div>
+    </div>
+    <div class="case" id="case">
+      <div class="case-label">Nexivo Spin</div>
+      <div class="case-win">
+        <div class="strip" id="strip"></div>
+      </div>
+      <div class="case-marker" aria-hidden="true"></div>
+    </div>
+    <div class="spin-result" id="spinResult" hidden>
+      <span data-t="spin.yours"></span> <strong id="spinPrize"></strong>
+      <button type="button" class="btn btn-light btn-sm" id="claimAgain" data-t="spin.claim"></button>
+    </div>
+    <details class="odds">
+      <summary><span data-t="spin.list"></span><svg class="i"><use href="#i-chev"/></svg></summary>
+      <ul class="odds-list" id="oddsList"></ul>
+      <p data-t="spin.odds"></p>
+    </details>
+  </div>
+</section>
+
+<!-- ============ SERVICES ============ -->
+<section class="sec light" id="paslaugos" aria-labelledby="svc-h">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2 id="svc-h" data-t="svc.h2"></h2>
+      <p data-t="svc.p"></p>
+    </div>
+    <ol class="svc" id="svcList">
+{{SERVICES}}
+    </ol>
+  </div>
+</section>
+
+<!-- ============ SOLUTIONS ============ -->
+<section class="sec light alt" id="sprendimai" aria-labelledby="sol-h">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2 id="sol-h" data-t="sol.h2"></h2>
+      <p data-t="sol.p"></p>
+    </div>
+    <div class="filters" role="group">
+      <button type="button" class="chip on" data-f="all" data-t="sol.f.all"></button>
+      <button type="button" class="chip" data-f="web" data-t="sol.f.web"></button>
+      <button type="button" class="chip" data-f="sys" data-t="sol.f.sys"></button>
+      <button type="button" class="chip" data-f="ai" data-t="sol.f.ai"></button>
+    </div>
+    <ul class="sol" id="solList">
+{{SOLUTIONS}}
+    </ul>
+  </div>
+</section>
+
+<!-- ============ WHY ============ -->
+<section class="sec dark why" id="kodel" aria-labelledby="why-h">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2 id="why-h" data-t="why.h2"></h2>
+      <p class="big" data-t="why.p"></p>
+    </div>
+    <div class="nums">
+      <div><b class="cnt" data-to="12">12</b><span data-t="n1"></span></div>
+      <div><b class="cnt" data-to="6">6</b><span data-t="n2"></span></div>
+      <div><b class="cnt" data-to="3">3</b><span data-t="n3"></span></div>
+      <div><b class="cnt" data-to="299">299</b><span data-t="n4"></span></div>
+    </div>
+    <ul class="why-grid">
+      <li class="rv"><svg class="i"><use href="#i-zap"/></svg><h3 data-t="w1.t"></h3><p data-t="w1.d"></p></li>
+      <li class="rv"><svg class="i"><use href="#i-sparkles"/></svg><h3 data-t="w2.t"></h3><p data-t="w2.d"></p></li>
+      <li class="rv"><svg class="i"><use href="#i-wallet"/></svg><h3 data-t="w3.t"></h3><p data-t="w3.d"></p></li>
+      <li class="rv"><svg class="i"><use href="#i-target"/></svg><h3 data-t="w4.t"></h3><p data-t="w4.d"></p></li>
+      <li class="rv"><svg class="i"><use href="#i-layers"/></svg><h3 data-t="w5.t"></h3><p data-t="w5.d"></p></li>
+      <li class="rv"><svg class="i"><use href="#i-refresh"/></svg><h3 data-t="w6.t"></h3><p data-t="w6.d"></p></li>
+    </ul>
+    <div class="cta-row why-cta">
+      <a href="#kontaktai" class="btn btn-grad btn-lg magnetic" data-t="cta.offer"></a>
+      <a href="#paslaugos" class="btn btn-ghost btn-lg" data-t="cta.services"></a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PROCESS ============ -->
+<section class="sec light" id="procesas" aria-labelledby="proc-h">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2 id="proc-h" data-t="proc.h2"></h2>
+      <p data-t="proc.p"></p>
+    </div>
+    <ol class="steps">
+{{STEPS}}
+    </ol>
+    <div class="center-cta"><a href="#kontaktai" class="btn btn-dark btn-lg magnetic" data-t="cta.start"></a></div>
+  </div>
+</section>
+
+<!-- ============ PRICING ============ -->
+<section class="sec light alt" id="kainos" aria-labelledby="pr-h">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2 id="pr-h" data-t="pr.h2"></h2>
+      <p data-t="pr.p"></p>
+    </div>
+    <div class="plans">
+      <article class="plan rv">
+        <h3>START</h3>
+        <p class="plan-for" data-t="k1.for"></p>
+        <p class="price"><small data-t="pr.from"></small> <b>299 €</b></p>
+        <ul class="ticks" data-tl="k1.f"></ul>
+        <a href="#kontaktai" class="btn btn-dark" data-need="landing" data-t="cta.start"></a>
+      </article>
+      <article class="plan plan-hi rv">
+        <span class="plan-tag" data-t="pr.rec"></span>
+        <h3>BUSINESS</h3>
+        <p class="plan-for" data-t="k2.for"></p>
+        <p class="price"><small data-t="pr.from"></small> <b>599 €</b></p>
+        <ul class="ticks" data-tl="k2.f"></ul>
+        <a href="#kontaktai" class="btn btn-grad magnetic" data-need="web" data-t="cta.start"></a>
+      </article>
+      <article class="plan rv">
+        <h3>E-COMMERCE</h3>
+        <p class="plan-for" data-t="k3.for"></p>
+        <p class="price"><small data-t="pr.from"></small> <b>899 €</b></p>
+        <ul class="ticks" data-tl="k3.f"></ul>
+        <a href="#kontaktai" class="btn btn-dark" data-need="shop" data-t="cta.start"></a>
+      </article>
+      <article class="plan rv">
+        <h3>CUSTOM</h3>
+        <p class="plan-for" data-t="k4.for"></p>
+        <p class="price"><b class="price-c" data-t="pr.custom"></b></p>
+        <ul class="ticks" data-tl="k4.f"></ul>
+        <a href="#kontaktai" class="btn btn-dark" data-need="ai" data-t="cta.discuss"></a>
+      </article>
+    </div>
+    <div class="plans-foot">
+      <p data-t="pr.note"></p>
+      <a href="#kontaktai" class="btn btn-ghost-d" data-t="pr.cta"></a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PORTFOLIO ============ -->
+<section class="sec dark" id="darbai" aria-labelledby="pf-h">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2 id="pf-h" data-t="pf.h2"></h2>
+      <p data-t="pf.p"></p>
+    </div>
+    <div class="works">
+{{WORKS}}
+    </div>
+  </div>
+</section>
+
+<!-- ============ FACTS + FAQ ============ -->
+<section class="sec light" id="duk" aria-labelledby="faq-h">
+  <div class="wrap faq-wrap">
+    <aside class="facts" aria-labelledby="fx-h">
+      <h2 id="fx-h" data-t="fx.h2"></h2>
+      <dl>
+        <div><dt data-t="fx.k1"></dt><dd data-t="fx.v1"></dd></div>
+        <div><dt data-t="fx.k2"></dt><dd data-t="fx.v2"></dd></div>
+        <div><dt data-t="fx.k3"></dt><dd data-t="fx.v3"></dd></div>
+        <div><dt data-t="fx.k4"></dt><dd data-t="fx.v4"></dd></div>
+        <div><dt data-t="fx.k5"></dt><dd data-t="fx.v5"></dd></div>
+        <div><dt data-t="fx.k6"></dt><dd data-th="fx.v6"></dd></div>
+      </dl>
+    </aside>
+    <div class="faq">
+      <h2 id="faq-h" data-t="faq.h2"></h2>
+{{FAQ}}
+      <p class="faq-more"><span data-t="faq.more"></span> <a href="#kontaktai" data-t="cta.consult"></a></p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ LEAD ============ -->
+<section class="sec dark lead-sec" id="kontaktai" aria-labelledby="lead-h">
+  <div class="hero-bg" aria-hidden="true"><span class="orb o3"></span></div>
+  <div class="wrap lead-in">
+    <div class="lead-copy">
+      <h2 id="lead-h" data-t="lead.h2"></h2>
+      <p data-t="lead.p"></p>
+      <ul class="ticks ticks-d">
+        <li data-t="lead.b1"></li><li data-t="lead.b2"></li><li data-t="lead.b3"></li>
+      </ul>
+      <p class="direct"><span data-t="lead.direct"></span><a href="mailto:hello@nexivo.sbs"><svg class="i"><use href="#i-mail"/></svg>hello@nexivo.sbs</a></p>
+    </div>
+    <form class="form" id="leadForm" novalidate>
+      <div class="row2">
+        <label><span data-t="f.name"></span><input name="name" autocomplete="name" required></label>
+        <label><span><span data-t="f.company"></span> <em data-t="f.optional"></em></span><input name="company" autocomplete="organization"></label>
+      </div>
+      <div class="row2">
+        <label><span data-t="f.email"></span><input name="email" type="email" autocomplete="email" inputmode="email" required></label>
+        <label><span><span data-t="f.phone"></span> <em data-t="f.optional"></em></span><input name="phone" type="tel" autocomplete="tel" inputmode="tel" placeholder="+370"></label>
+      </div>
+      <div class="row2">
+        <label><span data-t="f.need"></span>
+          <select name="need" id="needSel" required>
+            <option value="" data-t="f.choose"></option>
+            <option value="web" data-t="need.web"></option>
+            <option value="landing" data-t="need.landing"></option>
+            <option value="shop" data-t="need.shop"></option>
+            <option value="ai" data-t="need.ai"></option>
+            <option value="bot" data-t="need.bot"></option>
+            <option value="crm" data-t="need.crm"></option>
+            <option value="auto" data-t="need.auto"></option>
+            <option value="other" data-t="need.other"></option>
+          </select>
+        </label>
+        <label><span data-t="f.budget"></span>
+          <select name="budget">
+            <option value="" data-t="budget.0"></option>
+            <option value="<500">&lt;500 €</option>
+            <option value="500-1000">500–1000 €</option>
+            <option value="1000-2500">1000–2500 €</option>
+            <option value="2500+">2500 €+</option>
+          </select>
+        </label>
+      </div>
+      <label><span data-t="f.msg"></span><textarea name="message" id="msgField" rows="4" data-tp="f.msg.ph"></textarea></label>
+      <input type="checkbox" name="botcheck" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+      <p class="form-err" role="alert" hidden></p>
+      <button class="btn btn-grad btn-lg btn-block magnetic" type="submit" data-t="cta.offer"></button>
+      <p class="consent" data-th="f.consent"></p>
+    </form>
+  </div>
+</section>
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="ftr dark">
+  <div class="wrap">
+    <div class="ftr-top">
+      <div class="ftr-brand">
+        <img src="assets/logo.webp" alt="Nexivo" width="498" height="118" loading="lazy">
+        <p class="ftr-tag" data-t="ft.tag"></p>
+        <p class="ftr-slogan" data-t="ft.slogan"></p>
+        <a href="#kontaktai" class="btn btn-grad" data-t="cta.offer"></a>
+      </div>
+      <nav class="ftr-col" aria-label="Paslaugos">
+        <h3 data-t="nav.services"></h3>
+        <a href="#paslaugos" data-t="s1.t"></a><a href="#paslaugos" data-t="s2.t"></a><a href="#paslaugos" data-t="s3.t"></a>
+        <a href="#paslaugos" data-t="s4.t"></a><a href="#paslaugos" data-t="s6.t"></a><a href="#paslaugos" data-t="s9.t"></a>
+      </nav>
+      <nav class="ftr-col" aria-label="Nexivo">
+        <h3 data-t="ft.about"></h3>
+        <a href="#kodel" data-t="why.h2"></a><a href="#procesas" data-t="nav.process"></a><a href="#kainos" data-t="nav.pricing"></a>
+        <a href="#darbai" data-t="nav.work"></a><a href="#duk" data-t="nav.faq"></a>
+      </nav>
+      <div class="ftr-col">
+        <h3 data-t="ft.contacts"></h3>
+        <a href="mailto:hello@nexivo.sbs"><svg class="i"><use href="#i-mail"/></svg>hello@nexivo.sbs</a>
+        <a href="https://nexivo.sbs/"><svg class="i"><use href="#i-globe"/></svg>nexivo.sbs</a>
+        <span><svg class="i"><use href="#i-pin"/></svg><span data-t="ft.loc"></span></span>
+      </div>
+      <div class="ftr-col">
+        <h3 data-t="ft.social"></h3>
+        <!-- TODO: įrašykite tikras nuorodas -->
+        <a href="#" rel="noopener"><svg class="i"><use href="#i-ig"/></svg>Instagram</a>
+        <a href="#" rel="noopener"><svg class="i"><use href="#i-fb"/></svg>Facebook</a>
+        <a href="#" rel="noopener"><svg class="i"><use href="#i-in"/></svg>LinkedIn</a>
+      </div>
+    </div>
+    <div class="ftr-bot">
+      <p data-t="ft.copy"></p>
+      <div>
+        <button type="button" class="link" data-policy="privacy" data-t="ft.privacy"></button>
+        <button type="button" class="link" data-policy="cookies" data-t="ft.cookies"></button>
+        <button type="button" class="link" id="cookieSettings" data-t="ft.cset"></button>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<a href="#kontaktai" class="sticky-cta btn btn-grad" id="stickyCta" data-t="cta.offer"></a>
+
+<!-- cookie banner -->
+<div class="cookie" id="cookie" role="region" aria-label="Cookies" hidden>
+  <p><span data-t="ck.text"></span> <button type="button" class="link" data-policy="cookies" data-t="ck.more"></button></p>
+  <div class="cookie-btns">
+    <button type="button" class="btn btn-ghost btn-sm" data-ck="essential" data-t="ck.essential"></button>
+    <button type="button" class="btn btn-light btn-sm" data-ck="all" data-t="ck.accept"></button>
+  </div>
+</div>
+
+<!-- win / claim modal -->
+<dialog class="modal" id="winModal" aria-labelledby="win-h">
+  <button type="button" class="modal-x" data-close data-ta="close"><svg class="i"><use href="#i-x"/></svg></button>
+  <div class="win-burst" aria-hidden="true"><svg class="i"><use href="#i-gift"/></svg></div>
+  <h2 id="win-h"><span data-t="win.h"></span><strong id="winPrize"></strong></h2>
+  <p data-t="win.p"></p>
+  <form id="claimForm" novalidate>
+    <label><span data-t="f.name"></span><input name="name" autocomplete="name"></label>
+    <label><span data-t="f.email"></span><input name="email" type="email" autocomplete="email" inputmode="email"></label>
+    <label><span data-t="f.phone"></span><input name="phone" type="tel" autocomplete="tel" inputmode="tel" placeholder="+370"></label>
+    <input type="checkbox" name="botcheck" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+    <p class="hint" data-t="win.hint"></p>
+    <p class="form-err" role="alert" hidden></p>
+    <button class="btn btn-grad btn-lg btn-block" type="submit" data-t="spin.claim"></button>
+    <p class="consent" data-th="f.consent"></p>
+  </form>
+</dialog>
+
+<!-- result modal -->
+<dialog class="modal modal-sm" id="okModal" aria-labelledby="ok-h">
+  <div class="ok-ic"><svg class="i"><use href="#i-check"/></svg></div>
+  <h2 id="ok-h"></h2>
+  <p id="ok-p"></p>
+  <button type="button" class="btn btn-dark" data-close data-t="close"></button>
+</dialog>
+
+<!-- policy modal -->
+<dialog class="modal modal-doc" id="polModal" aria-labelledby="pol-h">
+  <button type="button" class="modal-x" data-close data-ta="close"><svg class="i"><use href="#i-x"/></svg></button>
+  <h2 id="pol-h"></h2>
+  <div class="doc" id="polBody"></div>
+</dialog>
+
+<script>window.I18N={{I18N}};</script>
+<script>{{JS}}</script>
+</body>
+</html>
